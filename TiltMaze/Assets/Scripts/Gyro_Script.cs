@@ -12,7 +12,7 @@ public class Gyro_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Input.gyro.attitude);
+        Debug.Log("Input Gyro Attitude: " + Input.gyro.attitude);
         transform.rotation = Input.gyro.attitude;
     }
 }
