@@ -16,5 +16,6 @@ public class PointManagerScript : MonoBehaviour
     {
         score += 1;
         scoreText.text  = "Score: " + score;
+        Debug.Log("Score: " + score);
     }
 }
